@@ -29,6 +29,8 @@ public class QcontestApplication {
 	public static void main(String[] args) {
         if (args.length != 1){
             throw new RuntimeException();
+
+
         }
         List<String> commandLineArgs = new LinkedList<>(Arrays.asList(args));
         run(commandLineArgs);
