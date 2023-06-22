@@ -1,9 +1,9 @@
-package com.crio.qcontest.entities;
+package com.sample.qcontest.entities;
 
 import java.util.LinkedList;
 import java.util.List;
-import com.crio.qcontest.repositories.ContestRepository;
-import com.crio.qcontest.repositories.UserRepository;
+import com.sample.qcontest.repositories.ContestRepository;
+import com.sample.qcontest.repositories.UserRepository;
 
 public class Contestant {
     private final User user;

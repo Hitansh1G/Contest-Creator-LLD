@@ -1,9 +1,9 @@
-package com.crio.qcontest.repositories;
+package com.sample.qcontest.repositories;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.crio.qcontest.entities.Contestant;
+import com.sample.qcontest.entities.Contestant;
 
 public interface IContestantRepository {
     Contestant save(Contestant contestant);

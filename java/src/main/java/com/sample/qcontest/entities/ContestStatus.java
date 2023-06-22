@@ -1,4 +1,4 @@
-package com.crio.qcontest.entities;
+package com.sample.qcontest.entities;
 
 public enum ContestStatus {
     NOT_STARTED,IN_PROGRESS,ENDED 

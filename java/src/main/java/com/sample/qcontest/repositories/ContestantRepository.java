@@ -1,4 +1,4 @@
-package com.crio.qcontest.repositories;
+package com.sample.qcontest.repositories;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import com.crio.qcontest.entities.Contestant;
+import com.sample.qcontest.entities.Contestant;
 
 public class ContestantRepository implements IContestantRepository {
     public final Map<String,Contestant> contestantMap;

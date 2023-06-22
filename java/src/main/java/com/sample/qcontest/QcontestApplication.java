@@ -1,4 +1,4 @@
-package com.crio.qcontest;
+package com.sample.qcontest;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -6,23 +6,23 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.crio.qcontest.constants.UserOrder;
-import com.crio.qcontest.entities.Contest;
-import com.crio.qcontest.entities.Contestant;
-import com.crio.qcontest.entities.Level;
-import com.crio.qcontest.entities.Question;
-import com.crio.qcontest.entities.User;
-import com.crio.qcontest.repositories.ContestRepository;
-import com.crio.qcontest.repositories.ContestantRepository;
-import com.crio.qcontest.repositories.IContestRepository;
-import com.crio.qcontest.repositories.IContestantRepository;
-import com.crio.qcontest.repositories.IQuestionRepository;
-import com.crio.qcontest.repositories.IUserRepository;
-import com.crio.qcontest.repositories.QuestionRepository;
-import com.crio.qcontest.repositories.UserRepository;
-import com.crio.qcontest.services.ContestService;
-import com.crio.qcontest.services.QuestionService;
-import com.crio.qcontest.services.UserService;
+import com.sample.qcontest.constants.UserOrder;
+import com.sample.qcontest.entities.Contest;
+import com.sample.qcontest.entities.Contestant;
+import com.sample.qcontest.entities.Level;
+import com.sample.qcontest.entities.Question;
+import com.sample.qcontest.entities.User;
+import com.sample.qcontest.repositories.ContestRepository;
+import com.sample.qcontest.repositories.ContestantRepository;
+import com.sample.qcontest.repositories.IContestRepository;
+import com.sample.qcontest.repositories.IContestantRepository;
+import com.sample.qcontest.repositories.IQuestionRepository;
+import com.sample.qcontest.repositories.IUserRepository;
+import com.sample.qcontest.repositories.QuestionRepository;
+import com.sample.qcontest.repositories.UserRepository;
+import com.sample.qcontest.services.ContestService;
+import com.sample.qcontest.services.QuestionService;
+import com.sample.qcontest.services.UserService;
 
 public class QcontestApplication {
 

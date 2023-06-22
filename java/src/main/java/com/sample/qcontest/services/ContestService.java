@@ -1,4 +1,4 @@
-package com.crio.qcontest.services;
+package com.sample.qcontest.services;
 
  import java.util.Collections;
 import java.util.ArrayList;
@@ -6,19 +6,19 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
 import javax.management.RuntimeErrorException;
-import com.crio.qcontest.entities.Contest;
-import com.crio.qcontest.entities.ContestStatus;
-import com.crio.qcontest.entities.Contestant;
-import com.crio.qcontest.entities.Level;
-import com.crio.qcontest.entities.Question;
-import com.crio.qcontest.entities.User;
-import com.crio.qcontest.repositories.ContestRepository;
-import com.crio.qcontest.repositories.ContestantRepository;
-import com.crio.qcontest.repositories.IContestRepository;
-import com.crio.qcontest.repositories.IContestantRepository;
-import com.crio.qcontest.repositories.IQuestionRepository;
-import com.crio.qcontest.repositories.IUserRepository;
-import com.crio.qcontest.repositories.UserRepository;
+import com.sample.qcontest.entities.Contest;
+import com.sample.qcontest.entities.ContestStatus;
+import com.sample.qcontest.entities.Contestant;
+import com.sample.qcontest.entities.Level;
+import com.sample.qcontest.entities.Question;
+import com.sample.qcontest.entities.User;
+import com.sample.qcontest.repositories.ContestRepository;
+import com.sample.qcontest.repositories.ContestantRepository;
+import com.sample.qcontest.repositories.IContestRepository;
+import com.sample.qcontest.repositories.IContestantRepository;
+import com.sample.qcontest.repositories.IQuestionRepository;
+import com.sample.qcontest.repositories.IUserRepository;
+import com.sample.qcontest.repositories.UserRepository;
 
 public class ContestService{
     private final IContestantRepository contestantRepository;
@@ -72,7 +72,7 @@ public class ContestService{
         return tempList; 
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
+    // TODO: sample_TASK_MODULE_SERVICES
     // Complete the implementation of getAllContestLevelWise method
     // Implementation must take care of the following cases:-
     // 1) Get all the questions.
@@ -85,7 +85,7 @@ public class ContestService{
         return contestRepository.findAllContestLevelWise(level);
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
+    // TODO: sample_TASK_MODULE_SERVICES
     // Complete the implementation of createContestant method.
     // This method registers the user to the valid contest.
     // Implementation must take care of the following cases:-
@@ -203,7 +203,7 @@ public class ContestService{
 		return r.ints(min, (max + 1)).findFirst().getAsInt();
 	}
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
+    // TODO: sample_TASK_MODULE_SERVICES
     // Complete the implementation of contestHistory method.
     // Implementation must take care of the following cases:-
     // 1) Return the list of contestants in descending order( user with highest score is first ) as per their score in a given contest.

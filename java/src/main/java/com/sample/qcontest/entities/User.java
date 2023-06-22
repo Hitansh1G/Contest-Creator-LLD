@@ -1,4 +1,4 @@
-package com.crio.qcontest.entities;
+package com.sample.qcontest.entities;
 
 import javax.management.RuntimeErrorException;
 
@@ -29,7 +29,7 @@ public class User {
     public Long getId() {
         return id;
     }
-    // TODO: CRIO_TASK_MODULE_ENTITIES
+    // TODO: sample_TASK_MODULE_ENTITIES
     // Complete the implementation of modifyScore method
     // Implementation must take care of the following cases:-
     // 1) Set an appropriate totalScore.

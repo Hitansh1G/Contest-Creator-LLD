@@ -1,4 +1,4 @@
-package com.crio.qcontest.entities;
+package com.sample.qcontest.entities;
 
 public enum Level {
     LOW(50),MEDIUM(30),HIGH(0);

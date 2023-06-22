@@ -1,4 +1,4 @@
-package com.crio.qcontest.repositories;
+package com.sample.qcontest.repositories;
 
  import java.util.Collections;
 import java.util.HashMap;
@@ -9,7 +9,7 @@ import java.util.TreeMap;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
-import com.crio.qcontest.entities.User;
+import com.sample.qcontest.entities.User;
 
 public class UserRepository implements IUserRepository{
     public final Map<Long,User> userMap;
@@ -19,7 +19,7 @@ public class UserRepository implements IUserRepository{
         userMap = new HashMap<Long,User>();
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
+    // TODO: sample_TASK_MODULE_SERVICES
     // Complete the implementation of save method
     // Implementation must take care of the following cases:-
     // 1) Save a new user with unique ID to HashMap. ( Make use of AutoIncrement for unique ID)
@@ -41,7 +41,7 @@ public class UserRepository implements IUserRepository{
 
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
+    // TODO: sample_TASK_MODULE_SERVICES
     // Complete the implementation of findAll method
     // Implementation must take care of the following cases:-
     // 1) Return all the users stored in HashMap.

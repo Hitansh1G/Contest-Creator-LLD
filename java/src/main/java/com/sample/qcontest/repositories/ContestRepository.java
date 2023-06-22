@@ -1,4 +1,4 @@
-package com.crio.qcontest.repositories;
+package com.sample.qcontest.repositories;
 
  import java.util.Collections;
 import java.util.HashMap;
@@ -7,8 +7,8 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import com.crio.qcontest.entities.Contest;
-import com.crio.qcontest.entities.Level;
+import com.sample.qcontest.entities.Contest;
+import com.sample.qcontest.entities.Level;
 
 public class ContestRepository implements IContestRepository{
     private final Map<Long,Contest> contestMap;
@@ -36,7 +36,7 @@ public class ContestRepository implements IContestRepository{
         return Optional.ofNullable(contestMap.get(id));
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
+    // TODO: sample_TASK_MODULE_SERVICES
     // Complete the implementation of findAllContestLevelWise method
     // Implementation must take care of the following cases:-
     // 1) Find all the contests for a given level.

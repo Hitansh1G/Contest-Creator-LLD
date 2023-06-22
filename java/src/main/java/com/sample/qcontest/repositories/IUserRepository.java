@@ -1,9 +1,9 @@
-package com.crio.qcontest.repositories;
+package com.sample.qcontest.repositories;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.crio.qcontest.entities.User;
+import com.sample.qcontest.entities.User;
 
 public interface IUserRepository {
     User save(User user);

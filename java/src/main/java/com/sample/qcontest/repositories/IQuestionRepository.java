@@ -1,10 +1,10 @@
-package com.crio.qcontest.repositories;
+package com.sample.qcontest.repositories;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.crio.qcontest.entities.Level;
-import com.crio.qcontest.entities.Question;
+import com.sample.qcontest.entities.Level;
+import com.sample.qcontest.entities.Question;
 
 public interface IQuestionRepository {
     Question save(Question question);

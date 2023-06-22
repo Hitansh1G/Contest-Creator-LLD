@@ -1,4 +1,4 @@
-package com.crio.qcontest.services;
+package com.sample.qcontest.services;
 
  import java.util.ArrayList;
 import java.util.Collections;
@@ -9,11 +9,11 @@ import java.util.PriorityQueue;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 
-import com.crio.qcontest.constants.UserOrder;
-import com.crio.qcontest.entities.User;
-import com.crio.qcontest.repositories.ContestantRepository;
-import com.crio.qcontest.repositories.IUserRepository;
-import com.crio.qcontest.repositories.UserRepository;
+import com.sample.qcontest.constants.UserOrder;
+import com.sample.qcontest.entities.User;
+import com.sample.qcontest.repositories.ContestantRepository;
+import com.sample.qcontest.repositories.IUserRepository;
+import com.sample.qcontest.repositories.UserRepository;
 
 public class UserService{
 
@@ -23,7 +23,7 @@ public class UserService{
         this.userRepository = userRepository;
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
+    // TODO: sample_TASK_MODULE_SERVICES
     // Complete the implementation of createUser method
     // Implementation must take care of the following cases:-
     // 1) Create and store user in the repository.
@@ -37,7 +37,7 @@ public class UserService{
 
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
+    // TODO: sample_TASK_MODULE_SERVICES
     // Complete the implementation of getAllUser method
     // Implementation must take care of the following cases:-
     // 1) Get all the users in ascending Order w.r.t score.

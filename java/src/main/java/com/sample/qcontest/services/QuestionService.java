@@ -1,10 +1,10 @@
-package com.crio.qcontest.services;
+package com.sample.qcontest.services;
 
 import java.util.List;
 
-import com.crio.qcontest.entities.Level;
-import com.crio.qcontest.entities.Question;
-import com.crio.qcontest.repositories.IQuestionRepository;
+import com.sample.qcontest.entities.Level;
+import com.sample.qcontest.entities.Question;
+import com.sample.qcontest.repositories.IQuestionRepository;
 
 public class QuestionService{
 

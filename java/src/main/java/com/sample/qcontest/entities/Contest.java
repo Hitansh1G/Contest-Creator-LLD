@@ -1,4 +1,4 @@
-package com.crio.qcontest.entities;
+package com.sample.qcontest.entities;
 
 import java.util.List;
 
@@ -24,7 +24,7 @@ public class Contest {
         this(title, level, createdBy, questions,null);
     }
 
-    // TODO: CRIO_TASK_MODULE_ENTITIES
+    // TODO: sample_TASK_MODULE_ENTITIES
     // Complete the implementation of validateQuestions method
     // Implementation must take care of the following cases:-
     // 1) Verify if the level of all the questions and contest matches.
@@ -68,7 +68,7 @@ public class Contest {
     }
 
 
-    // TODO: CRIO_TASK_MODULE_ENTITIES
+    // TODO: sample_TASK_MODULE_ENTITIES
     // Complete the implementation of endContest method
     // Implementation must take care of the following cases:-
     // 1) Mark the status of contest as ended.

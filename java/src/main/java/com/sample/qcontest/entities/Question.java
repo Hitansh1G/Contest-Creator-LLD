@@ -1,4 +1,4 @@
-package com.crio.qcontest.entities;
+package com.sample.qcontest.entities;
 
 public class Question {
     private final String title;

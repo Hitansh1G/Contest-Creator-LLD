@@ -1,4 +1,4 @@
-package com.crio.qcontest.repositories;
+package com.sample.qcontest.repositories;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import com.crio.qcontest.entities.Level;
-import com.crio.qcontest.entities.Question;
+import com.sample.qcontest.entities.Level;
+import com.sample.qcontest.entities.Question;
 
 public class QuestionRepository implements IQuestionRepository{
     private final Map<Long,Question> questionMap;
